@@ -1,0 +1,10 @@
+# api call for user creation
+###
+POST http://127.0.0.1:8000/user
+Content-Type: application/json
+
+{
+    "username":"xyz",
+    "email":"xyz@gmail.com",
+    "password":"xyz@123"
+}
